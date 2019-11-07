@@ -1,0 +1,8 @@
+Example for external project in cmake.
+
+To use for your external library, change all the ExternalLib with a prefered name, 
+rename the file to `Find<library_name>.cmake` and put in the cmake files directory.
+
+`<library_name>` is the library name you choose.
+
+To call it in CMakeLists.txt use `find_package(<library_name>)`
